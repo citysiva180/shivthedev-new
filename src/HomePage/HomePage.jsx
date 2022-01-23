@@ -10,9 +10,9 @@ function HomePage() {
   templateColumns='repeat(5, 1fr)'
   gap={4}
 >
-  <GridItem colSpan={1} bg='tomato' />
-  <GridItem colSpan={3}  bg='aqua' />
-  <GridItem colSpan={1}  bg='papayawhip' />
+  <GridItem colSpan={1} bg='blue.500' />
+  <GridItem colSpan={3}  bg='blue.500' />
+  <GridItem colSpan={1}  bg='blue.500' />
   {/* <GridItem colSpan={4} bg='tomato' /> */}
 </Grid>
   </Container>;

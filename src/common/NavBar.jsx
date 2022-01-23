@@ -12,9 +12,9 @@ function NavBar() {
 // templateColumns='repeat(8, 1fr)' gap={6}
 // rowSpan={2} colSpan={8} bg="lime"
 >
-<GridItem colSpan={1}  bg='blue.500' ><Center  p={5}><p>Logo</p></Center></GridItem>
-<GridItem colSpan={3} bg='blue.500' ><Center p={3}><Heading>ShivtheDev.tech</Heading></Center></GridItem>
-<GridItem colSpan={1}  bg='blue.500' ><Center p={3}><Toggle/></Center></GridItem>
+<GridItem colSpan={1}   ><Center  p={5}><p>Logo</p></Center></GridItem>
+<GridItem colSpan={3}  ><Center p={3}><Heading>ShivtheDev.tech</Heading></Center></GridItem>
+<GridItem colSpan={1}   ><Center p={3}><Toggle/></Center></GridItem>
 
 
 {/* <GridItem w='100%'  bg='blue.500' /> */}
