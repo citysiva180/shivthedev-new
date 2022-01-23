@@ -1,6 +1,6 @@
 import React from 'react';
 import { Grid, GridItem, Container, Center } from '@chakra-ui/react'
-import { Heading } from '@chakra-ui/react'
+import { Heading, Flex, Box , Spacer, Button} from '@chakra-ui/react'
 import Toggle from '../toggle';
 function NavBar() {
   return <Container maxW='container.xl'>
@@ -20,6 +20,18 @@ function NavBar() {
 {/* <GridItem w='100%'  bg='blue.500' /> */}
 </Grid>
 <br></br>
+{/* <Flex>
+  <Box p='4'>
+    <Heading size='md'>Chakra App</Heading>
+  </Box>
+  <Spacer />
+  <Box>
+    <Button colorScheme='teal' mr='4'>
+      Sign Up
+    </Button>
+    <Button colorScheme='teal'>Log in</Button>
+  </Box>
+</Flex> */}
 </Container>
 
 }
