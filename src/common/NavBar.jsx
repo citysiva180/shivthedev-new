@@ -1,0 +1,27 @@
+import React from 'react';
+import { Grid, GridItem, Container, Center } from '@chakra-ui/react'
+import { Heading } from '@chakra-ui/react'
+import Toggle from '../toggle';
+function NavBar() {
+  return <Container maxW='container.xl'>
+      <Grid
+//   h='70px'
+  templateRows='repeat(1, 1fr)'
+  templateColumns='repeat(5, 1fr)'
+  gap={4}
+// templateColumns='repeat(8, 1fr)' gap={6}
+// rowSpan={2} colSpan={8} bg="lime"
+>
+<GridItem colSpan={1}  bg='blue.500' ><Center  p={5}><p>Logo</p></Center></GridItem>
+<GridItem colSpan={3} bg='blue.500' ><Center p={3}><Heading>ShivtheDev.tech</Heading></Center></GridItem>
+<GridItem colSpan={1}  bg='blue.500' ><Center p={3}><Toggle/></Center></GridItem>
+
+
+{/* <GridItem w='100%'  bg='blue.500' /> */}
+</Grid>
+<br></br>
+</Container>
+
+}
+
+export default NavBar;
